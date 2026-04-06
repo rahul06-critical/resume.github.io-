@@ -123,3 +123,30 @@ input, textarea {
     color: #0a192f;
     font-weight: bold;
 }
+
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #0a192f;
+    color: white;
+}
+
+.dark-mode nav {
+    background-color: #020c1b;
+}
+
+.dark-mode .card,
+.dark-mode .project-card,
+.dark-mode .cert-card {
+    background-color: #112240;
+    color: white;
+}
+
+/* Toggle Button */
+#darkModeToggle {
+    background: #64ffda;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
