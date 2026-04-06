@@ -96,3 +96,30 @@ input, textarea {
         flex-direction: column;
     }
 }
+
+
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+}
+
+.cert-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0a192f;
+    font-weight: bold;
+}
